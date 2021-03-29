@@ -20,7 +20,7 @@ LIST_URL='https://www.goodreads.com/list/show/1.Best_Books_Ever'
 books={'URL':[]}
 
 #the no. of pages this list has
-num_pages=557
+num_pages=50
 
 for i in range(1, num_pages):
   #time.sleep(120) #make sure you give enough time between page loads to not avoid server overload
